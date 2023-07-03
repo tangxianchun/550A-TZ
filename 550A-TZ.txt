@@ -23,6 +23,8 @@ elseif a=="as30326"then
 _G.whitelist=true
 elseif a=="gvgggcfftfrreww"then
 _G.whitelist=true
+elseif a=="tangxianchun"then
+_G.whitelist=true
 elseif a=="rushshshseek9"then
 _G.whitelist=true
 elseif a=="tangxianchu"then
