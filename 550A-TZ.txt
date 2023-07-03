@@ -1,10 +1,28 @@
-
 local CoreGui = game:GetService("StarterGui")
+
 CoreGui:SetCore("SendNotification", {
-    Title = "550A TZ",
-    Text = "你没有被授权进入方舟空间站(在建)，即将被踢出",
-    Duration = 2, 
+    Title = "确认身份",
+    Text = "正在验证....",
+    Duration = 5,
 })
+
+local a=tostring(game.Players.LocalPlayer.Character);
+
+if a=="zkosjsiw"then
+_G.whitelist=true
+elseif a=="tangxianchu"then
+_G.whitelist=true
+end
+if _G.whitelist==true then
+  wait(1)
+    local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+    Title = "验证结果.",
+    Text = a.."验证身份成功等待时间长一点",
+    Duration = 5,
+})
+
 wait(2)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
@@ -19,20 +37,7 @@ CoreGui:SetCore("SendNotification", {
     Text = "四",
     Duration = 2, 
 })
-wait(1)
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "『M O S S』",
-    Text = "正在接入",
-    Duration = 2, 
-})
-wait(1)
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "『M O S S』",
-    Text = "正在获取授权",
-    Duration = 2, 
-})
+
 wait(1)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
@@ -40,32 +45,12 @@ CoreGui:SetCore("SendNotification", {
     Text = "三",
     Duration = 2, 
 })
-wait(1)
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "550A TZ",
-    Text = "检测到未知来源，正在维护",
-    Duration = 2, 
-})
+
 wait(1)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "550A TZ",
     Text = "二",
-    Duration = 2, 
-})
-wait(1)
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "『M O S S』",
-    Text = "获取授权成功",
-    Duration = 2, 
-})
-wait(1)
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "550A TZ",
-    Text = "未知来源已消失，重新启动",
     Duration = 2, 
 })
 wait(1)
@@ -79,7 +64,29 @@ wait(1)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "550A TZ",
-    Text = "获得高级紧急授权，正在启动",
+    Text = "启动失败",
+    Duration = 2, 
+})
+wait(1)
+local CoreGui = game:GetService("StarterGui")
+CoreGui:SetCore("SendNotification", {
+    Title = "『M O S S』",
+    Text = "启动本地云端",
+    Duration = 2, 
+})
+wait(1)
+local CoreGui = game:GetService("StarterGui")
+CoreGui:SetCore("SendNotification", {
+    Title = "550A TZ",
+    Text = "重新启动",
+    Duration = 2, 
+})
+
+wait(1)
+local CoreGui = game:GetService("StarterGui")
+CoreGui:SetCore("SendNotification", {
+    Title = "550A TZ",
+    Text = "加速启动中",
     Duration = 2, 
 })
 wait(2)
@@ -606,3 +613,12 @@ end)
 Tab2Section:NewButton("550W V4(要白名单)仅限测试人员使用","No description",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W_/main/550W-V4.txt"))()
 end)
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+    Title = "验证失败",
+    Text = "你并没有白名单",
+    Duration = 10,   
+
+})
+end
