@@ -1,4 +1,11 @@
 local CoreGui = game:GetService("StarterGui")
+CoreGui:SetCore("SendNotification", {
+    Title = "加群有可能会发放白名单",
+    Text = "781759165",
+    Duration = 2999, 
+})
+wait(4)
+local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
     Title = "确认身份",
@@ -616,8 +623,8 @@ end)
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-    Title = "验证失败",
-    Text = "你并没有白名单",
+    Title = "验证成功",
+    Text = "你有白名单",
     Duration = 10,   
 
 })
