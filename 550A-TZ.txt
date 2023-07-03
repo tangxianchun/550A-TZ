@@ -69,35 +69,7 @@ CoreGui:SetCore("SendNotification", {
     Text = "一",
     Duration = 2, 
 })
-wait(1)
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "550A TZ",
-    Text = "启动失败",
-    Duration = 2, 
-})
-wait(1)
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "『M O S S』",
-    Text = "启动本地云端",
-    Duration = 2, 
-})
-wait(1)
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "550A TZ",
-    Text = "重新启动",
-    Duration = 2, 
-})
 
-wait(1)
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "550A TZ",
-    Text = "加速启动中",
-    Duration = 2, 
-})
 wait(2)
 print("Anti Afk On")
 		local vu = game:GetService("VirtualUser")
