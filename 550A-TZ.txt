@@ -160,7 +160,7 @@ local services = setmetatable({}, {
 
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
-    Title = "550W V2",
+    Title = "550A TZ",
     Text = "加载成功，欢迎进入方舟空间站(在建)",
     Duration = 2, 
 })
@@ -179,7 +179,7 @@ CoreGui:SetCore("SendNotification", {
     Duration = 90, 
 })
 
-local window = kavoUi.CreateLib("由 tangxianchu 全力制作的550W TZ","DarkTheme")
+local window = kavoUi.CreateLib("由 tangxianchu 全力制作的550A TZ","DarkTheme")
 
 ---Tabs
  
@@ -601,6 +601,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W_/ma
 end)
 Tab2Section:NewButton("550W V4(要白名单)仅限测试人员使用","No description",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W_/main/550W-V4.txt"))()
+end)
+Tab2Section:NewButton("550W V5 拓展功能","No description",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W-V5/main/550W-V5.txt"))()
 end)
 local CoreGui = game:GetService("StarterGui")
 
