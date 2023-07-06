@@ -47,15 +47,21 @@ CoreGui:SetCore("SendNotification", {
     Text = a.."验证身份成功等待时间长一点",
     Duration = 5,
 })
-
 wait(2)
+local CoreGui = game:GetService("StarterGui")
+CoreGui:SetCore("SendNotification", {
+    Title = "🇹「㊐   ㊊』🇿",
+    Text = "云端加速启动中",
+    Duration = 5, 
+})
+wait(1)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "550A TZ",
     Text = "五",
     Duration = 2, 
 })
-wait(1)
+
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "550A TZ",
@@ -63,7 +69,6 @@ CoreGui:SetCore("SendNotification", {
     Duration = 2, 
 })
 
-wait(1)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "550A TZ",
@@ -71,14 +76,13 @@ CoreGui:SetCore("SendNotification", {
     Duration = 2, 
 })
 
-wait(1)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "550A TZ",
     Text = "二",
     Duration = 2, 
 })
-wait(1)
+
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "550A TZ",
@@ -86,7 +90,7 @@ CoreGui:SetCore("SendNotification", {
     Duration = 2, 
 })
 
-wait(2)
+
 print("Anti Afk On")
 		local vu = game:GetService("VirtualUser")
 		game:GetService("Players").LocalPlayer.Idled:connect(function()
@@ -100,14 +104,14 @@ CoreGui:SetCore("SendNotification", {
     Text = "被踢出服务器的概率已降低",
     Duration = 2,
 })
-wait(2)
+
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "启动成功",
     Text = "您好"..game.Players.LocalPlayer.Name.."，欢迎使用550W系列脚本",
     Duration = 2,
 })
-wait(2)
+
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "正在接入方舟空间站",
