@@ -4,12 +4,12 @@ CoreGui:SetCore("SendNotification", {
     Text = "781759165",
     Duration = 2999, 
 })
-wait(4)
+wait(2)
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-    Title = "确认身份",
-    Text = "正在验证....",
+    Title = "🇹「㊐   ㊊』🇿",
+    Text = "白名单资格验证中...",
     Duration = 5,
 })
 
@@ -637,12 +637,17 @@ end)
 Tab2Section:NewButton("550W V5 拓展功能","No description",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W-V5/main/550W-V5.txt"))()
 end)
+else
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-    Title = "验证成功",
-    Text = "你有白名单",
+    Title = "🇹「㊐   ㊊』🇿",
+    Text = "没有白名单",
     Duration = 10,   
 
 })
+
+wait(2)
+game.Players.LocalPlayer:Kick ("错误：加群有活动领取白名单资格：781759165")
 end
+
