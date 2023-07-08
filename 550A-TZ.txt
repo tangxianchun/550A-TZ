@@ -27,6 +27,9 @@ _G.whitelist=true
 elseif a=="Harry_Bert"then
 _G.whitelist=true
 
+elseif a=="cclb_123xh"then
+_G.whitelist=true
+
 elseif a=="SDjdkskes"then
 _G.whitelist=true
 
@@ -256,3 +259,4 @@ CoreGui:SetCore("SendNotification", {
 wait(2)
 game.Players.LocalPlayer:Kick ("错误：加群有活动领取白名单资格：781759165")
 end
+
