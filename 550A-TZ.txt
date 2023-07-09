@@ -239,20 +239,6 @@ CoreGui:SetCore("SendNotification", {
     Duration = 2, 
 })
 
-local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "『方 舟 空 间 站』",
-    Text = "用户"..game.Players.LocalPlayer.Name.."，成功进入",
-    Duration = 20,
-})
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "『脚本测试员』",
-    Text = "『十字架』『tangxianchu』『一头小』『一条鱼』",
-    Duration = 90, 
-})
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550A-TZ/main/550A_TZ.txt"))()
 
 else
