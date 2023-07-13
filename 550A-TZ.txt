@@ -61,6 +61,12 @@ elseif a=="cclb_123xh"then
 _G.whitelist=true
 elseif a=="BBB989898988"then
 _G.whitelist=true
+elseif a=="951357nvjn"then
+_G.whitelist=true
+elseif a=="gfj233958"then
+_G.whitelist=true
+elseif a=="shadiao_yazi"then
+_G.whitelist=true
 elseif a=="6fhg51"then
 _G.whitelist=true
 elseif a=="6331nhdi"then
