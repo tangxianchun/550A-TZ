@@ -43,7 +43,7 @@ local CoreGui = loadstring(game:HttpGet(('https://raw.githubusercontent.com/pyaw
 
 notify("🇹『㊐    ㊊』🇿", "白名单验证中", 4)
 notify("🇹『㊐    ㊊』🇿", "加群定期发放白名单", 4)
-wait(5)
+wait(1)
 
 local a=tostring(game.Players.LocalPlayer.Character);
 
@@ -64,6 +64,8 @@ _G.whitelist=true
 elseif a=="951357nvjn"then
 _G.whitelist=true
 elseif a=="gfj233958"then
+_G.whitelist=true
+elseif a=="qwrtuiplkjhgfdsa"then
 _G.whitelist=true
 elseif a=="shadiao_yazi"then
 _G.whitelist=true
@@ -123,11 +125,13 @@ end
 if _G.whitelist==true then
 
 notify("🇹『㊐    ㊊』🇿", "验证成功，欢迎您！亲爱的"..game.Players.LocalPlayer.Name.. "", 1)
-wait(2)
+wait(1)
 notify("🇹『㊐    ㊊』🇿", "loading……", 1)
 wait(1)
 notify("🇹『㊐    ㊊』🇿", "正在为您启动云端…", 1)
+wait(1)
 notify("🇹『㊐    ㊊』🇿", "启动成功！", 1)
+wait(2)
 notify("🇹『㊐    ㊊』🇿", "Welcome use 550A TZ", 1)
 wait(1)
 notify("🇹『㊐    ㊊』🇿", "您目前使用的注入器:"..identifyexecutor(), 2)
